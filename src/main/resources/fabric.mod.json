@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "hitboxstudio",
+	"version": "${version}",
+	"name": "Hitbox Studio",
+	"description": "A fully customizable replacement for the F3+B hitbox renderer. Colors, line width, opacity, fill, per-entity sections and crystal highlights, all configured through Mod Menu.",
+	"authors": [
+		"lawsparker312-ship-it"
+	],
+	"contact": {
+		"homepage": "https://github.com/lawsparker312-ship-it/hitbox-studio",
+		"sources": "https://github.com/lawsparker312-ship-it/hitbox-studio",
+		"issues": "https://github.com/lawsparker312-ship-it/hitbox-studio/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/hitboxstudio/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.hitboxstudio.HitboxStudio"
+		],
+		"modmenu": [
+			"dev.hitboxstudio.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"hitboxstudio.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*",
+		"modmenu": ">=17.0.0-beta.1"
+	}
+}

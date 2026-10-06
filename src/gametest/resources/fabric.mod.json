@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "hitboxstudio-test",
+	"version": "1.0.0",
+	"name": "Hitbox Studio Test",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"dev.hitboxstudio.test.HitboxStudioClientTest"
+		]
+	},
+	"mixins": [
+		"hitboxstudio-test.mixins.json"
+	],
+	"depends": {
+		"hitboxstudio": "*"
+	}
+}

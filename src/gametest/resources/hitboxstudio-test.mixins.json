@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.hitboxstudio.test.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"TestWindowPlacementMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
