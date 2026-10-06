@@ -5,12 +5,12 @@
 	"name": "Hitbox Studio",
 	"description": "A fully customizable replacement for the F3+B hitbox renderer. Colors, line width, opacity, fill, per-entity sections and crystal highlights, all configured through Mod Menu.",
 	"authors": [
-		"lawsparker312-ship-it"
+		"OhMarker"
 	],
 	"contact": {
-		"homepage": "https://github.com/lawsparker312-ship-it/hitbox-studio",
-		"sources": "https://github.com/lawsparker312-ship-it/hitbox-studio",
-		"issues": "https://github.com/lawsparker312-ship-it/hitbox-studio/issues"
+		"homepage": "https://github.com/OhMarker/hitbox-studio",
+		"sources": "https://github.com/OhMarker/hitbox-studio",
+		"issues": "https://github.com/OhMarker/hitbox-studio/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/hitboxstudio/icon.png",
